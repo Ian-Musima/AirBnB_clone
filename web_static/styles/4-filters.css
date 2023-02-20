@@ -1,31 +1,20 @@
 .filters {
-    background-color: #FFFFFF;
+color: white;
     height: 70px;
     width: 100%;
-    border: 1px solid #DDDDDD;
+    border: 1px #DDDDDD solid;
     border-radius: 4px;
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
-  } 
-
-  .search-button {
+    position: relative;
+}
+button {
+    font-size: 18px;
     background-color: #FF5A5F;
     color: #FFFFFF;
-    font-size: 18px;
     height: 48px;
     width: 20%;
-    border: none;
     border-radius: 4px;
-    margin-left: auto;
-    margin-right: 30px;
-    transition: opacity 0.2s ease-in-out;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    align-self: center;
-  }
-
-  .search-button:hover {
-    opacity: 0.9;
-  }
+    position: absolute;
+    right: 30px;
+    border: none;
+    top: 12px;
+}
